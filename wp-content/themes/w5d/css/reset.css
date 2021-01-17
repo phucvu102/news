@@ -1,0 +1,46 @@
+/* ============ FONT-FACE ============ */
+@font-face{
+    font-family: 'Segoe UI';
+    src: url('font-face/Segoe UI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif;
+	font-size:15px;
+	outline:none;
+	width: 100%;
+	color:#333;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size:15px;
+}
+*{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/* ============ LINK ============ */
+a:link{
+	color:#333333;
+	text-decoration:none;
+}
+a:visited{
+	color:#333333;
+}
+a:hover{
+	color:#333333;
+	text-decoration:underline !important;
+}
+a:active{
+	color:#333333;
+}
+
+/* ============ OTHER ============ */
+.clear{
+	clear: both;
+}
